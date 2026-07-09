@@ -21,7 +21,7 @@ for attempt in range(1, 6):
 
     # 2. MAIN LOGIC (Yeh 'while' ke barabar seedh mein hona chahiye)
     if guess == secret_number:
-        print(f"Congratulations Manzar! you guessed the number in {attempt} attempts 🎉")
+        print(f"Congratulations Manzar! you guessed the number in {attempt} attempts ")
         break
     elif guess < secret_number:
         print("Your guess is low! Try again: \n")
